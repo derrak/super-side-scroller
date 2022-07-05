@@ -1,8 +1,8 @@
 window.addEventListener('load',function(){
   const canvas = document.getElementById('canvas1');
-  const ctx = canvas.getContext('2d'); //instance of built-in canvas 2D api that holds all drawing methods and properties we will need to animate our game
+  const ctx = canvas.getContext('2d'); //instance of built-in canvas 2D API that holds all drawing methods and properties we will need to animate our game
   canvas.width = 800;
-  canvas.height = 720;
+  canvas.height = 720; 
 
   class InputHandler {
     constructor(){
