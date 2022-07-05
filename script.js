@@ -64,7 +64,7 @@ window.addEventListener('load',function(){
 
 // //lets user jump up while moving L/R; commented out as it's not in original code
 //       if (input.keys.indexOf('ArrowUp') > -1 && this.onGround()) {
-//         this.vy -= 32;
+//         this.vy -= 32; 
 //       } else if (input.keys.indexOf('ArrowLeft') > -1) {
 //         this.speed = -5;
 //       } else if (input.keys.indexOf('ArrowRight') > -1){
